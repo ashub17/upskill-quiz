@@ -1,0 +1,327 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.topbar{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.logo img{
+    height:60px;
+    width: auto;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.page-links{
+    margin: 15px 20px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.page-links a{
+    margin-right: 5px;
+}
+.user-links{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+}
+.user-links i{
+    background-color: #0062FF;
+    color: #FFF;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.9;
+}
+.user-links a{
+    color: #0062FF;;
+}
+.user-links button{
+    margin-left: 20px;
+    background-color: #60D91A;
+    box-shadow: 0px 10px 20px #60D91A4D;
+    border-radius: 4px;
+    border: 0px solid #FFF;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    width: 90px;
+    height: 44px;
+}
+.main{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.poster{
+    background-image: url(./assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 625px;
+    height: 750px;
+    color: #FFF;
+}
+.poster-main{
+    padding: 100px;
+}
+.progress-bar{
+    margin-top: 60px;
+    height: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.progress-done{
+    background-color: #60D91A;
+}
+.progress-remaining{
+    background-color: #728391;
+
+}
+.poster-name{
+    background: #FFF;
+    color:#000000;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 160px;
+    padding: 5px;
+    font-weight: 600;
+}
+.poster-heading{
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1.6px;
+}
+.poster-text{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.poster-bottom{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.poster-creator{
+    font-size: 14px;
+    font-weight: bold;
+}
+.poster-time{
+    margin-top: 10px;
+    font-weight: normal;
+}
+.poster-social{
+    margin-top: 15px;
+    font-size: 30px;
+}
+.main-content{
+    margin: 50px 0px 0px 50px;
+}
+.question-number{
+    font-size: 18px;
+    font-weight: bold;
+    color: #60D91A;
+}
+.question{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 500px;
+}
+.answer-options{
+    margin-top: 30px;
+    max-width: 400px;
+    display: flex;
+}
+.answer-options > div{
+    margin-right: 30px;
+}
+.option1 {
+    border:#0062FF 50px;
+}
+.submit-btn button{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background: #0062FF;
+    box-shadow: 0px 10px 20px #0062FF4D;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+    border: none;
+}
+.next-btn button{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background: #FFF;
+    border: none;
+    color: #0062FF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.footer>div{
+    margin-right:30px;
+}
+.footer-heading{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-text{
+    font-size: 14px;
+}
+.footer-logo{
+    margin-top: 25px;
+}
+.helpful-links{
+    min-width: 200px;
+}
+.helpful-content a{
+    color: #60D91A;
+    font-size: 14px;
+}
+.newsletter-content input{
+    width: 500px;
+    height: 40px;
+    background-color: #000;
+    border: 1px solid #FFF;
+}
+.newsletter-content input::placeholder{
+    padding-left:20px;
+    font-size: 14px;
+    color: #FFF;
+}
+.newsletter-content button{
+    margin-top: 25px;
+    background-color: #000000;
+    border: 1px solid #60D91A ;
+    color: #60D91A;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 250px;
+    height: 40px;
+}
+.answer-options img:hover{
+    border: 8px solid #60d91a9d;
+    border-radius: 18px;
+}
+
+.img-option-active {
+    border: 8px solid #60D91A;
+    border-radius: 18px;
+}
+
+
+.answers-option-2-img {
+    align-content: center;
+    text-align: center;
+    padding:auto;
+}
+
+.btn-choice{
+    display:block;
+    width:100%;
+    height: 65px;
+    margin-top:20px;
+    background: #EEEFF2 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    border:none;
+
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    padding-left:15px;
+    padding-right:15px;
+}
+.btn-choice:hover{
+    background: #60d91a9d 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+.btn-choice-active {
+    background: #60D91A 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .main{
+        flex-direction: column;
+    }
+    .poster{
+        margin-left: 20px;
+    }
+    .poster-main{
+        padding: 20px;
+    }
+    .progress-bar{
+        margin-top: 30px;
+        height: 10px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .poster-name{
+        font-size: 12px;
+    }
+    .poster-heading{
+        font-size: 26px;
+    }
+    .poster-text{
+        font-size: 14px;
+    }
+    .poster-bottom{
+        margin-top: 450px;
+    }
+    .poster-creator{
+        font-size: 12px;
+    }
+    .main-content{
+        margin: 50px 0px 0px 30px;
+    }
+    .submit-btn button{
+        width: 90%;
+    }
+    .next-btn button{
+        width: 90%;
+    }
+    .footer-text{
+        font-size: 10px;
+    }
+    .helpful-links{
+        min-width: 50px;
+    }
+    .helpful-content a{
+        font-size: 10px;
+    }
+    .newsletter-content input{
+        width: 150px;
+    }
+    .newsletter-content button{
+        width: 150px;
+    }
+
+  }
